@@ -1,0 +1,18 @@
+<nav class ="navbar navbar-dark bg-primary">
+    <a href="/"class =navbar-brand>SITIO WEB CANINO</a>
+  </nav>
+
+  <div class ="container">
+    <!--con esto angular sabe donde tiene q poner esos componentes de la ruta-->
+
+    <div class ="row">
+      <div class ="col-md-5">
+        <div class ="cards">
+            <button type="button" class="btn btn-link btn-sm"><a routerLink="/tipos">Tipos de canes</a></button>
+            <button type="button" class="btn btn-link btn-sm"><a routerLink="/ventajas">Ventajas</a></button>
+            <button type="button" class="btn btn-link btn-Caracte"><a routerLink="/caracteristicas">Características</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
